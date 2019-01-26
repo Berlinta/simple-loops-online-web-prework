@@ -20,18 +20,16 @@ def while_iterator(number_of_times)
   count = 0 
   while count<number_of_times
   puts phrase
-  count += 0 
+  count += 1 
 end
 
 def until_iterator(number_of_times)
-  counter = 0
-  until counter == 7
-  puts phrase
-  counter += 1
-  # code your solution here using the "until" keyword
-  # hint: use a counter to tell the until loop when to stop!
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-
+   phrase = "Welcome to Flatiron School's Web Development Course!"
+   cout = 0 
+   until count>=number_of_times
+   puts phrase
+   cout += 1
+ end
 end
 
 def for_iterator(number_of_times)
