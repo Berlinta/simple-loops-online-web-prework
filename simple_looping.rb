@@ -11,7 +11,7 @@ end
   
 def times_iterator(number_of_times)
     phrase = "Welcome to Flatiron School's Web Development Course!"
-    7.times do
+    numberr_of_times.times do
       puts phrase
 end
 
