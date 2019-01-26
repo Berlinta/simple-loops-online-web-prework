@@ -5,7 +5,7 @@ def loop_iterator(number_of_times)
   count = 0 
   puts phrase
   count += 1 
-  break if count > number_of_times
+  break if count >= number_of_times
  
     end
 
